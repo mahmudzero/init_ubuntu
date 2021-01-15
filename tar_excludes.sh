@@ -1,1 +1,30 @@
-tar --exclude='node_modules' --exclude='tmp' --exclude='dist' --exclude='bower_components' -cvf home.tar ./$1
+tar \
+  --exclude='node_modules' \
+  --exclude='tmp' \
+  --exclude='dist' \
+  --exclude='bower_components' \
+  --exclude='./.ssh' \
+  --exclude='./Desktop' \
+  --exclude='./Documents' \
+  --exclude='./Downloads' \
+  --exclude='./.gem' \
+  --exclude='./home.tar' \
+  --exclude='./.npm' \
+  --exlucde='./.nvm' \
+  --exclude='./.local' \
+  --excluee='./.gnupg' \
+  --exclude='./.lesshst' \
+  --exclude='./Music' \
+  --exclude='./.node-gyp' \
+  --exclude='./Pictures' \
+  --exclude='./.profile' \
+  --exclude='./Public' \
+  --exclude='./.rbenv' \
+  --exclude='./.sudo_as_admin_successful' \
+  --exclude='./Templates' \
+  --exclude='./Videos' \
+  --exclude='./.vscode-server' \
+  --exclude='./.wget-hsts' \
+  --exclude='./.zcompdump' \
+  --exclude='./.zcompdump-mahmudahmad-5.8' \
+  -cvf home.tar ./$1
