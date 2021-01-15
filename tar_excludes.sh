@@ -12,7 +12,7 @@ tar \
   --exclude='./.npm' \
   --exclude='./.nvm' \
   --exclude='./.local' \
-  --excluee='./.gnupg' \
+  --exclude='./.gnupg' \
   --exclude='./.lesshst' \
   --exclude='./Music' \
   --exclude='./.node-gyp' \
@@ -27,4 +27,7 @@ tar \
   --exclude='./.wget-hsts' \
   --exclude='./.zcompdump' \
   --exclude='./.zcompdump-mahmudahmad-5.8' \
+  --exclude='./.config' \
+  --exclude='./.cache' \
+  --exclude='./.bundle' \
   -cvf home.tar ./$1
