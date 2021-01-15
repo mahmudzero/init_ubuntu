@@ -10,7 +10,7 @@ tar \
   --exclude='./.gem' \
   --exclude='./home.tar' \
   --exclude='./.npm' \
-  --exlucde='./.nvm' \
+  --exclude='./.nvm' \
   --exclude='./.local' \
   --excluee='./.gnupg' \
   --exclude='./.lesshst' \
