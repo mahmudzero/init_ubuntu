@@ -30,4 +30,7 @@ tar \
   --exclude='./.config' \
   --exclude='./.cache' \
   --exclude='./.bundle' \
+  --exclude='./.mozilla' \
+  --exclude='./.yarn' \
+  --exclude='./.snap' \
   -cvf home.tar ./$1
