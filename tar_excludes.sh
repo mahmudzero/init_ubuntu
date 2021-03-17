@@ -33,4 +33,4 @@ tar \
   --exclude='./.mozilla' \
   --exclude='./.yarn' \
   --exclude='./.snap' \
-  -cvfz home.tar ./$1
+  -czvf ./home.tar ./$1
