@@ -1,5 +1,4 @@
 const dynamo  = require('./lib/utils/dynamo');
-const c_utils = require('./lib/utils');
 const n_utils = require('util');
 
 const list_tables = n_utils.promisify(dynamo.db.listTables).bind(dynamo.db);
